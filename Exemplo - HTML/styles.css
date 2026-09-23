@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background: #f8fafc;
+}
+.card {
+    background: white;
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 12px;
+}
+input {
+    width: 90%;
+}
+#saida {
+    padding: 8px;
+    background: #e0f2fe;
+}
