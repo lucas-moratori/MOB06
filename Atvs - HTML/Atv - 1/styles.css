@@ -1,0 +1,16 @@
+.card {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(255, 255, 255);
+    padding: 20px; 
+    border-radius: 10px; 
+    max-width: 300px; 
+    margin: auto; 
+    border: 2px solid; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#resultado {
+    color:blue
+}
