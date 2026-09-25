@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background: #f8fafc;
+}
+
+.card {
+    background: white;
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+}
+
+select {
+    padding: 8px;
+}
+
+#saida {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#saida.pix {
+    color: green;
+    background: #dcfce7;
+}
+
+#saida.cartão {
+    color: blue;
+    background: #e0f2fe;
+}
+
+#saida.din {
+    color: #854d0e;
+    background: #fffbe8;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor de Pagamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+    <h1>💳 Forma de Pagamento</h1>
+    <p>Total: <strong>R$ 100,00</strong></p>
+    <label for="pagamento">Escolha como pagar:</label> <br>
+    <select id="pagamento" onchange="processar()">
+        <option value="pix">PIX</option>
+        <option value="cartão">Cartão</option>
+        <option value="din">Dinheiro</option>
+    </select>
+    <h1 id="saida"></h1>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>

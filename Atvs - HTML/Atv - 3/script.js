@@ -1,13 +1,16 @@
 function estoque() {
     const totalEstoque = 3;
     let totalPedido = document.getElementById("qnt").value;
-    let saidaPedido = document.getElementById("saida");
+    let saida = document.getElementById("saida");
 
     if (totalPedido > totalEstoque) {
-        saidaPedido.innerText = "❌ Estoque Insuficiente!";
-       // saidaPedido.className = "não";
-    } else 
-        saidaPedido.innerText = "✅ Quantidade OK";
-    //   saidaPedido.className = "sim";
+        saida.innerText = "❌ Estoque Insuficiente!";
+        saida.className = "no";
+    } else {
+        saida.innerText = "✅ Quantidade OK";
+        saida.className = "ok";
+    }
 }
+estoque();
+
 

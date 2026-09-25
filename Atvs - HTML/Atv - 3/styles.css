@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: #f8fafc;
+}
+
+.card {
+    background: white;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+}
+
+#qnt {
+    width: 35px;
+    height: 20px;
+}
+
+#saida {
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#saida.ok {
+    background: cornflowerblue;
+    color: blue;
+}
+
+#saida.no {
+    background: rgb(255, 119, 119);
+    color: rgb(196, 2, 2);
+}

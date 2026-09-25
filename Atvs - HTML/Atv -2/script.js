@@ -4,3 +4,4 @@ function mudarPreço() {
     let final = (qnt * preço);
     document.getElementById("total").innerText = "Total: " + "R$ " + final.toFixed(2).replace('.', ',');
 }
+mudarPreço();
